@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DIAMOND 888 — Get Your New ID</title>
+  <!-- Load Google Fonts: Montserrat for ultra-bold geometric headings and Inter for clean UI text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#080808',
+            cardDark: '#121212',
+            pillDark: '#141414',
+            neonLime: '#C6FF00',
+            alertRed: '#FF3B30',
+          },
+          fontFamily: {
+            display: ['Montserrat', 'sans-serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          boxShadow: {
+            'neon-badge': '0 0 28px rgba(198, 255, 0, 0.38), inset 0 0 14px rgba(198, 255, 0, 0.14)',
+            'neon-cta': '0 0 32px rgba(198, 255, 0, 0.42), 0 8px 20px rgba(0, 0, 0, 0.6)',
+            'neon-cta-hover': '0 0 44px rgba(198, 255, 0, 0.65), 0 10px 24px rgba(0, 0, 0, 0.7)',
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-obsidian text-white font-sans min-h-screen flex flex-col items-center justify-center px-5 py-8 antialiased selection:bg-neonLime selection:text-black">
+
+  <!-- Main Mobile-Centered Container -->
+  <main class="w-full max-w-[410px] mx-auto flex flex-col items-center text-center">
+
+    <!-- 1. Glowing Circular Brand Badge with Custom Diamond & DI Monogram -->
+    <div class="relative mb-6 flex items-center justify-center">
+      <div class="w-[122px] h-[122px] rounded-full bg-[#0E0E0E] border-[2.5px] border-neonLime shadow-neon-badge flex flex-col items-center justify-center p-3 transition-transform duration-300 hover:scale-105">
+        <!-- Custom Sharp Vector Diamond + Bold Monogram -->
+        <svg class="w-[78px] h-[78px]" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Diamond Logo">
+          <!-- Faceted Neon Lime Diamond Crown -->
+          <polygon points="32,14 68,14 82,30 50,54 18,30" fill="#C6FF00" />
+          <!-- Inner Geometric Facet Cutouts for Sharp Contrast -->
+          <path d="M32 14L41 30L50 14L59 30L68 14" stroke="#0E0E0E" stroke-width="2.4" stroke-linejoin="round" />
+          <line x1="18" y1="30" x2="82" y2="30" stroke="#0E0E0E" stroke-width="2.4" />
+          <path d="M41 30L50 54L59 30" stroke="#0E0E0E" stroke-width="2.4" stroke-linejoin="round" />
+          <!-- Bold Stylized 'DI' Monogram Underneath -->
+          <text x="50" y="85" text-anchor="middle" fill="#C6FF00" font-family="Montserrat, sans-serif" font-weight="900" font-size="31" letter-spacing="1.5">DI</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- 2. Two-Tone Brand Heading -->
+    <h1 class="font-display font-black text-[34px] sm:text-[38px] leading-none tracking-tight mb-2.5">
+      <span class="text-white">DIAMOND</span>
+      <span class="text-neonLime ml-1">888</span>
+    </h1>
+
+    <!-- 3. Spaced Uppercase Subheading -->
+    <p class="text-[#8E8E93] text-[13px] font-semibold tracking-[0.26em] uppercase mb-7">
+      GET YOUR NEW ID
+    </p>
+
+    <!-- 4. Primary Glowing CTA Button Linked to diamondexch888.live -->
+    <a
+      href="https://diamondexch888.live"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="w-full bg-neonLime hover:bg-[#d2ff33] active:scale-[0.98] text-[#080808] font-display font-extrabold text-[17px] tracking-wide py-[18px] px-6 rounded-[18px] shadow-neon-cta hover:shadow-neon-cta-hover transition-all duration-200 flex items-center justify-center gap-3 cursor-pointer"
+    >
+      <!-- Dark Circular Telegram / Paper-Plane Icon -->
+      <span class="w-7 h-7 rounded-full bg-[#080808] flex items-center justify-center shrink-0">
+        <svg class="w-3.5 h-3.5 text-neonLime -ml-0.5" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.928 2.607a1.15 1.15 0 0 0-1.217-.215L2.47 10.025a1.15 1.15 0 0 0 .088 2.155l4.756 1.547 1.844 5.713a1.15 1.15 0 0 0 1.946.42l2.732-2.923 4.864 3.575a1.15 1.15 0 0 0 1.805-.682l2.633-16.027a1.15 1.15 0 0 0-.21-1.196ZM9.74 14.38l7.59-6.89-5.932 7.83-.538 3.172-1.367-4.236.247.124Z" />
+        </svg>
+      </span>
+      <span>GET NEW ID</span>
+    </a>
+
+    <!-- 5. Instant Helper Text -->
+    <p class="text-[#8E8E93] text-[14px] font-normal mt-4 mb-6">
+      Message now to get your ID instantly
+    </p>
+
+    <!-- 6. Live Countdown Timer Pill -->
+    <div class="inline-flex items-center justify-center bg-pillDark border border-[#242426] rounded-full px-6 py-2.5 mb-8">
+      <span class="text-[#D1D1D6] text-[12px] font-bold tracking-[0.14em] uppercase mr-2">
+        ENDS IN:
+      </span>
+      <span id="countdown-timer" class="text-alertRed font-mono font-bold text-[14px] tracking-wider">
+        14:35
+      </span>
+    </div>
+
+    <!-- 7. Three-Column Stats Cards Grid -->
+    <section aria-label="Platform Highlights" class="w-full grid grid-cols-3 gap-3 mb-8">
+      <!-- Card 1: 100% Accuracy -->
+      <div class="bg-cardDark border border-[#1F1F22] rounded-[18px] py-5 px-2 flex flex-col items-center justify-center">
+        <svg class="w-6 h-6 text-neonLime mb-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12" />
+        </svg>
+        <div class="font-display font-extrabold text-[19px] sm:text-[21px] text-white leading-tight">
+          100%
+        </div>
+        <div class="text-[#7C7C82] text-[10px] font-semibold tracking-[0.12em] uppercase mt-1">
+          ACCURACY
+        </div>
+      </div>
+
+      <!-- Card 2: 100K+ Members -->
+      <div class="bg-cardDark border border-[#1F1F22] rounded-[18px] py-5 px-2 flex flex-col items-center justify-center">
+        <svg class="w-6 h-6 text-neonLime mb-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+        </svg>
+        <div class="font-display font-extrabold text-[19px] sm:text-[21px] text-white leading-tight">
+          100K+
+        </div>
+        <div class="text-[#7C7C82] text-[10px] font-semibold tracking-[0.12em] uppercase mt-1">
+          MEMBERS
+        </div>
+      </div>
+
+      <!-- Card 3: 24/7 Support -->
+      <div class="bg-cardDark border border-[#1F1F22] rounded-[18px] py-5 px-2 flex flex-col items-center justify-center">
+        <svg class="w-6 h-6 text-neonLime mb-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 3h12l4 6-10 13L2 9Z" />
+          <path d="M11 3 8 9l4 13 4-13-3-6" />
+          <path d="M2 9h20" />
+        </svg>
+        <div class="font-display font-extrabold text-[19px] sm:text-[21px] text-white leading-tight">
+          24/7
+        </div>
+        <div class="text-[#7C7C82] text-[10px] font-semibold tracking-[0.12em] uppercase mt-1">
+          SUPPORT
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Footer Trust Badges -->
+    <footer class="flex items-center justify-center gap-3.5 text-[13px] text-[#8E8E93] font-medium">
+      <!-- Verified -->
+      <div class="flex items-center gap-1.5">
+        <svg class="w-4 h-4 text-neonLime shrink-0" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.25 14.5-4.25-4.25 1.41-1.41 2.84 2.83 6.59-6.59 1.41 1.41-8 8.01z" />
+        </svg>
+        <span>Verified</span>
+      </div>
+
+      <span class="text-[#3A3A3C]">•</span>
+
+      <!-- Secure -->
+      <span>Secure</span>
+
+      <span class="text-[#3A3A3C]">•</span>
+
+      <!-- Instant -->
+      <div class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-neonLime shrink-0" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" />
+        </svg>
+        <span>Instant</span>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Live Countdown Script starting at 14:35 -->
+  <script>
+    (function () {
+      const timerDisplay = document.getElementById('countdown-timer');
+      // 14 minutes and 35 seconds = 875 seconds
+      let remainingSeconds = 14 * 60 + 35;
+
+      function updateTimer() {
+        const minutes = Math.floor(remainingSeconds / 60);
+        const seconds = remainingSeconds % 60;
+        const formattedMin = String(minutes).padStart(2, '0');
+        const formattedSec = String(seconds).padStart(2, '0');
+        timerDisplay.textContent = `${formattedMin}:${formattedSec}`;
+
+        if (remainingSeconds > 0) {
+          remainingSeconds--;
+        } else {
+          // Reset loop smoothly if timer reaches 00:00
+          remainingSeconds = 14 * 60 + 35;
+        }
+      }
+
+      // Tick every 1 second
+      setInterval(updateTimer, 1000);
+    })();
+  </script>
+</body>
+</html>
